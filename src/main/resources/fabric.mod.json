@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "vedrt",
+  "version": "${version}",
+  "name": "VEDRT",
+  "description": "Single-player toolkit with a module GUI: entity glow, block highlighter, fullbright, freecam, structure finder, HUD.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.vedrt.VedrtClient"] },
+  "mixins": ["vedrt.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
